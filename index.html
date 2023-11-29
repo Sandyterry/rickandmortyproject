@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="allbutton">
+        <button id="charactersBtn" onclick="fetchData('character')">Personnages</button>
+        <button id="locationsBtn" onclick="fetchData('location')">Lieux</button>
+        <button id="episodesBtn" onclick="fetchData('episode')">Épisodes</button>
+    </div>
+
+    <div id="charactersSection" class="hidden"></div>
+    <div id="locationsSection" class="hidden"></div>
+    <div id="episodesSection" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
